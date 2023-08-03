@@ -1,0 +1,915 @@
+@media screen and (max-width:2560px) {
+    .pricing {
+        width: 100%;
+        /* height: 610px; */
+        background-color: #f1f1f1;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:1440px) {
+    
+    .pricing {
+        width: 100%;
+        /* height: 610px; */
+        background-color: #f1f1f1;
+        margin-top: 0px;
+    }
+}
+
+
+
+@media only screen and (max-width:1024px) {
+
+    .headercontentright img {
+        width: 100%;
+
+    }
+
+    .brandlogo {
+        width: 100%;
+        background-color: #f1f1f1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .aboutpara p {
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 10px;
+    }
+
+    .shortfqaboxleft h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 28px;
+    }
+
+    .pricingsubbox{
+        width: 32%;
+        height: 400px;
+        /* border: 2px solid black; */
+        background-color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        box-shadow:4px 4px 10px gray;
+    
+    }
+
+    .pricing {
+        width: 100%;
+        background-color: #f1f1f1;
+        margin-top: 0px;
+    }
+
+    .servicessubbox {
+        width: 25%;
+        height: 270px;
+        background-color: white;
+        box-shadow: 4px 4px 10px gray;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        cursor: pointer;
+        transition: all .4s ease-in-out;
+        text-align: justify;
+    }
+
+    .teambox {
+        width: 35%;
+        height: 470px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+
+    }
+    .teamimage {
+        width: 130px;
+        height: 130px;
+        border: 2px solid #37517e;
+        border-radius: 100%;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .teambox p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 17px;
+        margin-top: 23px;
+        text-align: center;
+    }
+
+    .navbar {
+        width: 56%;
+        height: 78px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    .header {
+        width: 100%;
+        height: 600px;
+        background-color: #37517e;
+    }
+
+    .headercontentleft {
+        width: 50%;
+        height: 400px;
+        padding-left: 15px;
+    }
+
+    .headercontentright {
+        width: 50%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headercontent {
+        width: 100%;
+        height: 502px;
+        margin-top: 20PX;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .headerbtn {
+        width: 100%;
+        height: 80px;
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    .headercontentleft h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 43px;
+        color: white;
+        padding-top: 50px;
+    }
+
+    .headerbtn button {
+        width: 150px;
+        padding: 10px;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 30px;
+        border: none;
+        background-color: #5289e8;
+        color: white;
+        cursor: pointer;
+        margin-right: 40px;
+
+    }
+
+    .aboutleft h5 {
+        font-size: 17px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 19px;
+        margin-top: 20px;
+    }
+
+
+    .iconapara {
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .brandlogo img {
+        width: 130px;
+        margin: 30px 50px;
+        filter: invert(100%);
+    }
+
+    .aboutpara p {
+        font-size: 12px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 10px;
+    }
+
+    .aboutright a button {
+        width: 150px;
+        padding: 10px;
+        margin-top: 66px;
+        border: 2px solid #5289e8;
+        border-radius: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        cursor: pointer;
+        transition: all .4s;
+        margin-left: 10px;
+    }
+
+    .shortfqaboxleft h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+    }
+
+    .shortfqaboxleft p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .container{
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: -15px;
+    }
+
+    .skill{
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skillleft{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skillright{
+        width: 100%;
+        height: 600px;
+    padding: 10px;
+    }
+    .pricingpara{
+        width: 100%;
+        height: 90px;
+        margin: auto;
+        text-align: center;
+        font-size: 17px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .pricingbox{
+        width: 100%;
+        height: 400px;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .pricingicon img{
+        width: 25px;
+    }
+
+    .pricingpara2 h6{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:12px;
+    }
+
+
+    .servicessubbox {
+        width: 30%;
+        height: 270px;
+        background-color: white;
+        box-shadow: 4px 4px 10px gray;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        cursor: pointer;
+        transition: all .4s ease-in-out;
+        text-align: justify;
+    }
+    
+    .team {
+        width: 100%;
+        background-color: #f1f1f1;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .teambox {
+        width: 70%;
+        height: 470px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .footerheading h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 28px;
+        color: black;
+        border-bottom: 2px solid #2982b5;
+    }
+    .logo {
+        width: 27%;
+        height: 78px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        color: white;
+    }
+    .navbar {
+        width: 65%;
+        height: 78px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation ul li {
+        float: left;
+        padding: 20px 17px;
+        list-style: none;
+    }
+
+    .nav-link{
+        position: absolute;
+        background-color: #5289e8;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -443px;
+        text-align: left;
+        z-index: 2;
+        transition: all 1s ;
+    }
+}
+
+@media only screen and (max-width:425px) {
+
+    .header {
+        width: 100%;
+        height: 520px;
+        background-color: #37517e;
+    }
+
+    .headercontentleft {
+        width: 100%;
+        height: 430px;
+        padding-left: 40px;
+    }
+
+    .headercontent {
+        width: 100%;
+        height: 400px;
+        margin-top: 20PX;
+        display: flex;
+        align-items: center;
+    }
+
+    .headercontentright {
+        width: 50%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+
+    .headercontentright img {
+        width: 90%;
+        display: none;
+
+    }
+
+    .brandlogo img {
+        margin-top: 30px;
+        width: 140px;
+    }
+    .aboutcontainer {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutleft {
+        width: 100%;
+        height: 300px;
+    }
+
+    .aboutright {
+        width: 100%;
+        height: 300px;
+    }
+    .aboutright a button {
+        width: 150px;
+        padding: 10px;
+        margin-top: 44px;
+        border: 2px solid #5289e8;
+        border-radius: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        cursor: pointer;
+        transition: all .4s;
+        margin-left: 10px;
+    }
+
+    .shortfqa{
+        width: 100%;
+        background-color: #f1f1f1;
+        display: flex;
+    flex-direction: column;
+    margin-top: 230px;
+    }
+
+    .shortfqaboxleft{
+        width: 100%;
+        height: 500px;
+        padding: 50px;
+    }
+
+    .shortfqaboxright{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .skillleft{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skillright h2{
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 10px;
+    }
+    
+    .pricingbox {
+        width: 100%;
+        height: 1212px;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .pricingsubbox{
+        width: 90%;
+        height: 400px;
+        /* border: 2px solid black; */
+        background-color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        box-shadow:4px 4px 10px gray;
+        margin-top: 20px;
+    
+    }
+    .pricingcontent{
+        width: 90%;
+        height: 50px;
+        /* border: 2px solid black; */
+        display: flex;
+        margin-top: 10px;
+    }
+    .pricing {
+        width: 100%;
+        /* height: 610px; */
+        background-color: #f1f1f1;
+        margin-top: 0px;
+    }
+
+    .pricingsubbox a button{
+        width: 150px;
+        padding: 8px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 17px;
+        border-radius: 10px;
+        border: 2px solid #5289e8;
+        background-color: transparent;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: all .4s ease-in-out;
+        }
+
+        .servicepara{
+            width: 100%;
+            height: 70px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            padding: 5px;
+        }
+        .servicepara p{
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 13px;
+        }
+
+        .servicesbox {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .servicessubbox {
+            width: 70%;
+            height: 270px;
+            background-color: white;
+            box-shadow: 4px 4px 10px gray;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 10px;
+            cursor: pointer;
+            transition: all .4s ease-in-out;
+            text-align: justify;
+            margin-top: 20px;
+        }
+
+        .team {
+            width: 100%;
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 580px;
+        }
+
+
+        .teambox{
+            width: 80%;
+            height: 470px;
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 10px;
+            transition: all .5s ease-in-out;
+            cursor: pointer;
+        }
+
+        .search {
+            width: 90%;
+            height: 60px;
+            /* border: 2px solid black; */
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .newslatter p {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .footer {
+            width: 90%;
+            /* border: 2px solid black; */
+            margin: 40px auto;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+        }
+
+        .footerbox {
+            width: 48%;
+            height: 298px;
+            /* border: 2px solid black; */
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .footerheading h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            color: black;
+            border-bottom: 2px solid #2982b5;
+        }
+
+        .copyright h6 {
+            color: white;
+            font-size: 11px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .logo {
+            width: 49%;
+            height: 78px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .navbar {
+            width: 19%;
+            height: 78px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .navbar{
+            display: none;
+        }
+        
+        .menu {
+            width: 20%;
+            height: 78px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* margin-top: -20px; */
+            display: block;
+            position: relative;
+            left: 179px;
+        }
+        .menu img{
+            width: 40px;
+            position: relative;
+            left: 20px;
+            top: 20px;
+}
+.nav-link{
+    position: absolute;
+    background-color: #5289e8;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -480px;
+    text-align: left;
+    z-index: 2;
+    transition: all 1s ;
+}
+}
+
+@media only screen and (max-width: 375px){
+.headercontentleft {
+    width: 100%;
+    height: 430px;
+    padding-left: 10px;
+}
+.headerbtn {
+    width: 100%;
+    height: 80px;
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.headerbtn button {
+    width: 129px;
+    padding: 8px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+    border: none;
+    background-color: #5289e8;
+    color: white;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.skillright h2{
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+
+.pricingpara{
+    width: 90%;
+    height: 90px;
+    margin: auto;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pricing {
+    width: 100%;
+    background-color: #f1f1f1;
+margin-top: 0px;
+}
+
+.servicessubbox {
+    width: 80%;
+    height: 270px;
+    background-color: white;
+    box-shadow: 4px 4px 10px gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.teambox{
+    width: 90%;
+    height: 470px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.logo h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    color: white;
+}
+
+}
+
+@media screen and (max-width:320px) {
+    .shortfqa {
+        width: 100%;
+        background-color: #f1f1f1;
+        display: flex;
+        flex-direction: column;
+        margin-top: 270px;
+    }
+
+    .shortfqaboxleft {
+        width: 100%;
+        height: 500px;
+        padding: 15px;
+    }
+    .shortfqaboxleft {
+        width: 100%;
+        height: 453px;
+        padding: 15px;
+    }
+
+    .shortfqaboxright {
+        width: 100%;
+        height: 267px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skillright h2{
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 10px;
+    }
+    .skillright p{
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .languages{
+        width: 100%;
+        height: 30px;
+        /* border: 2px solid black; */
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        padding:0 5px;
+    }
+    
+    .pricingpara{
+        width: 90%;
+        height: 90px;
+        margin: auto;
+        margin-top: -20px;
+        text-align: center;
+        font-size: 13px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .pricing {
+        width: 100%;
+        background-color: #f1f1f1;
+        margin-top: -69px;
+    }
+    .servicepara p {
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 11px;
+    }
+
+    .teambox{
+        width: 100%;
+        height: 470px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .newslatter h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 31px;
+    }
+
+    .search {
+        width: 100%;
+        height: 60px;
+        /* border: 2px solid black; */
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .search button {
+        width: 107px;
+        padding: 6px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        border-radius: 30px;
+        background-color: #5289e8;
+        color: white;
+        margin-left: -50px;
+        border: none;
+        cursor: pointer;
+    }
+    .footerbox {
+        width: 63%;
+        height: 298px;
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .copyright h6 {
+        color: white;
+        font-size: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .logo {
+        width: 70%;
+        height: 78px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 26px;
+        color: white;
+    }
+
+    .menu {
+        width: 20%;
+        height: 78px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: -20px; */
+        display: block;
+        position: relative;
+        left: 130px;
+    }
+}
